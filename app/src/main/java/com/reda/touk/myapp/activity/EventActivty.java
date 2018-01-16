@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -18,7 +17,6 @@ import com.android.volley.toolbox.StringRequest;
 import com.reda.touk.myapp.R;
 import com.reda.touk.myapp.app.AppConfig;
 import com.reda.touk.myapp.app.AppController;
-import com.reda.touk.myapp.map.MapsActivityCurrentPlace;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -85,7 +83,7 @@ public class EventActivty extends AppCompatActivity {
 
                         // Launch main activity
                         Intent intent = new Intent(EventActivty.this,
-                                MapsActivityCurrentPlace.class);
+                                MainActivity.class);
                         startActivity(intent);
                         finish();
                     } else {

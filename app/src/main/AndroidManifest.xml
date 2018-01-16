@@ -69,10 +69,6 @@
             >
         </activity>
         <activity
-            android:name="com.reda.touk.myapp.map.MapsActivityCurrentPlace"
-            >
-        </activity>
-        <activity
             android:name="com.reda.touk.myapp.activity.EventActivty"
             >
         </activity>
